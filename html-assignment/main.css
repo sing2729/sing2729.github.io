@@ -8,8 +8,6 @@ body {
 header, footer {
     background-color: #333;
     color: white;
-    text-align: center;
-    padding: 10px 0;
 }
 
 
@@ -23,7 +21,7 @@ header, footer {
 }
 
 
-.hobby-list {
+ .hobby-list {
     list-style-type: square;
 }
 
