@@ -1,0 +1,97 @@
+body {
+    background-color: goldenrod;
+}
+
+
+.wrapper {
+    width: 600px;
+    margin: 0 auto;
+    background-color:white;
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    /*padding: 0 20px;*/
+    width: 150px;
+}
+.feature {
+   /* visibility: hidden; */
+    display: none;
+}
+
+
+.box {
+    text-align: center;
+}
+
+
+.demo1 .box  {
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+    /* css box model */
+    padding: 10px;
+    border: 5px solid black;
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+.demo2 .box {
+    width: 100px;
+    height: 100px;
+    background-color: rebeccapurple;
+    /* css box model */
+    padding: 10px;
+    box-sizing: border-box;
+    float: left;    
+}
+
+
+.clearfix:after {
+    content: "CLEAR HEAR";
+    display: block;
+    clear: both;
+}
+
+.demo1 {
+    /*clear: both;*/
+}
+
+
+.stage {
+    height: 500px;
+    background-color: darkgray;
+    /*position: relative;*/
+}
+
+.prop  {
+    height: 100px;
+    width: 100px;
+    background-color: darkred;
+    position: fixed;
+    top: 35px;
+    left: 100px;
+}
+
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    /* z-index: */
+    z-index: 1;
+}
+
+nav a {
+    color: white
+}
+
+header {
+    margin-top: 100px;
+}
