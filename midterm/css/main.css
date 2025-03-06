@@ -1,16 +1,17 @@
-header{
+/* header style  */
+header{  
     position: relative;
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
     display: flex
 }
-
+/* header image resizing because its too big  */
 header img{
     width: 100%;
     height: auto;
 }
-
+/*header font The tragically hip style   */
 header h1{
     position: absolute;
     top: 50%;
@@ -19,6 +20,8 @@ header h1{
     color: white;
     font-size: 2em;
     text-align: center;
+    text-shadow: black 3px 3px 3px;  
+    /* added text shadow  because of white image  */
 }
 
 body{
@@ -28,7 +31,7 @@ body{
     padding: 0;
 }
 
-
+/* box style */
 .container {
     width: 80%;
     max-width: 1000px;
@@ -36,46 +39,46 @@ body{
     margin: 20px auto;
     padding: 20px;
 }
-
+/* navigation bar style  */
 nav ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
-    background-color: #f7f2f2;
+    background-color: #f8f4f4;
 }
 
-
+/* gap between nagivations */
 nav ul li{
     margin: 0 50px;
 }
 
-
+/* style for navigations  */
 nav ul li a{
-    color: #858383;
+    color: #630606;
     font-size: 1.2em;
     font-weight: bold;
 }
 
-
+/* whole body text style  */
 main{
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    color: white;
+    color: rgb(250, 249, 249);
 }
-
+/* info style for paragraph */
 .thetragicallytip-info{
     display: flex;
     align-items: center;
     margin: 20px 0;
     float: left;
 }
-
+/* info image style */
 .thetragicallytip-info img{
-    width: 200px;
+    width: 250px;
     float: left;
 }
  
@@ -89,7 +92,7 @@ main{
 .contact form {
     display: flex;
     flex-direction: calc(50% - 10px);
-    align-items: left;
+    align-items: calc(50% - 10px);
     max-width: 400px;
 }
 
@@ -102,11 +105,11 @@ main{
 .contact button {
     background: #494949;
     color: white;
-    padding: 10px;
-    border: none;
-    font-size: 1rem;
+    padding: 15px;
+    font-size: 2rem;
 }
 
+/*footer style  */
 footer {
     margin-top: 20px;
     padding: 10px;
